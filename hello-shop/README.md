@@ -1,7 +1,7 @@
 "# DevChallenge" 
-Author: Arshia Narula
-Email: arsnarul@in.ibm.com
-Emp# : 02736O
+#Author: Arshia Narula
+#Email: arsnarul@in.ibm.com
+#Emp# : 02736O
 
 
 The service will does a RESTful POST to /shops with a JSON of shopName, shopAddress.number and shopAddress.postCode to the ShopsFacade (microservice) which utilizes the MapService to get latitude and longitude of the shop. The Mapservice responds with the longitude and latitude, which updates the shops array containing {shopName, shopAddress.number, shopAddress.postCode, longitude and latitude}.
