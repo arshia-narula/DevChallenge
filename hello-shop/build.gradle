@@ -34,6 +34,10 @@ repositories {
 }
 
 dependencies {
+  compile 'com.google.googlejavaformat:google-java-format:1.0'
+}
+
+dependencies {
 	// Added
 	sqllite "org.xerial:sqlite-jdbc:3.8.9.1"
 	compile("javax.media:jai_core:1.1.3")
